@@ -15,4 +15,4 @@ run     chown -R freeciv /freeciv
 user    freeciv
 entrypoint ["/usr/games/freeciv-server"]
 cmd ["--saves", "/freeciv", "--port", "5556"]
-expose ["5556"]
+expose 5556
