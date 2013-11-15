@@ -34,6 +34,7 @@ Semi-related: getting a Freeciv 2.4.x client on OS X is non-trivial.
 - Install XQuartz from http://xquartz.macosforge.org/landing/
 - Install freeciv library dependenceis: `brew install pkg-config sdl jpeg libpng libtiff webp sdl_image sdl_mixer gettext freetype`
 - Download, compile & install freeciv 2.4.0:
+
 ```bash
 wget http://downloads.sourceforge.net/project/freeciv/Freeciv%202.4/2.4.0/freeciv-2.4.0.tar.bz2
 tar xfj freeciv-2.4.0.tar.bz2
@@ -46,5 +47,6 @@ cd freeciv-2.4.0
 make
 sudo make install
 ```
+
 - Run freeciv-sdl: `/usr/local/freeciv-2.4.0/bin/freeciv-sdl`
 
