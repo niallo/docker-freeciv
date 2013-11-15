@@ -42,8 +42,10 @@ cd freeciv-2.4.0
 ./configure --without-readline \
             --enable-client=sdl \
             --disable-debug \
-            --disable-dependency-tracking
-            --prefix=/usr/local/freeciv-2.4.0 CFLAGS=-I/usr/local/Cellar/gettext/0.18.3.1/include LDFLAGS=-L/usr/local/Cellar/gettext/0.18.3.1/lib
+            --disable-dependency-tracking \
+            --prefix=/usr/local/freeciv-2.4.0 \
+            CFLAGS=-I/usr/local/Cellar/gettext/0.18.3.1/include \
+            LDFLAGS=-L/usr/local/Cellar/gettext/0.18.3.1/lib
 make
 sudo make install
 ```
