@@ -1,7 +1,7 @@
 docker-freeciv
 ==============
 
-Docker image for a private [freeciv](http://freeciv.org) 2.4 server.
+[Docker](http://docker.io) image for a private [freeciv](http://freeciv.org) 2.4 server.
 
 Installation
 ============
@@ -32,7 +32,7 @@ Semi-related: getting a Freeciv 2.4.x client on OS X is non-trivial.
 
 - Install Homebrew from http://brew.sh
 - Install XQuartz from http://xquartz.macosforge.org/landing/
-- Install freeciv library dependenceis: `brew install pkg-config sdl jpeg libpng libtiff webp sdl_image sdl_mixer gettext freetype`
+- Install freeciv library dependencies: `brew install pkg-config sdl jpeg libpng libtiff webp sdl_image sdl_mixer gettext freetype`
 - Download, compile & install freeciv 2.4.0:
 
 ```bash
